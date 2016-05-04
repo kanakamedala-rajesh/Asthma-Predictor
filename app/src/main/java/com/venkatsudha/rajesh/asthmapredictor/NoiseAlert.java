@@ -52,7 +52,7 @@ public class NoiseAlert extends AppCompatActivity {
 
             double amp = mSensor.getAmplitude();
             //Log.i("Noise", "runnable mPollTask");
-            updateDisplay("Record your breath, placing device atleast 10cm from mouth", amp);
+            updateDisplay("Record your breath, placing device atleast 30cm from mouth", amp);
 
             if ((amp > mThreshold)) {
                 callForHelp();
@@ -145,7 +145,7 @@ public class NoiseAlert extends AppCompatActivity {
 
     private void initializeApplicationConstants() {
         // Set Noise Threshold
-        mThreshold = 8;
+        mThreshold = 11;
 
     }
 

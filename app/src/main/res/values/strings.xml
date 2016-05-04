@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Asthma Predictor</string>
+    <string name="status">Status displays over here</string>
+</resources>

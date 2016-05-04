@@ -18,7 +18,7 @@ class SoundLevelView extends View {
         private int mHeight;
         private int mWidth;
         
-        private int mThreshold = 0;
+        private double mThreshold = 0;
         private int mVol = 0;
         
         
@@ -42,7 +42,7 @@ class SoundLevelView extends View {
         
         }
         
-        public void setLevel(int volume, int threshold) {
+        public void setLevel(int volume, double threshold) {
                 if (volume == mVol && threshold == mThreshold) return;
                 mVol = volume;
                 mThreshold = threshold;

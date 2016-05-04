@@ -21,7 +21,7 @@ public class NoiseAlert extends AppCompatActivity {
     /**
      * config state
      **/
-    private int mThreshold;
+    private double mThreshold;
 
     private PowerManager.WakeLock mWakeLock;
 
@@ -145,7 +145,7 @@ public class NoiseAlert extends AppCompatActivity {
 
     private void initializeApplicationConstants() {
         // Set Noise Threshold
-        mThreshold = 11;
+        mThreshold = 10.5;
 
     }
 
